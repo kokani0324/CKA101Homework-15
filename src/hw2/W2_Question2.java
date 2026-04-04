@@ -5,15 +5,19 @@ public class W2_Question2 {
 		int i = 1;
 				
 		for (i =1 ; i<=49 ; i++) {
-			if (i / 10 ==4) {
+			if (i / 10 ==4) { //10位數的
 				continue;
-			}else if (i % 10 == 4) {
+			}else if (i % 10 == 4) { //個位數的
 				continue;
 			}else
 			System.out.print(i + " ");
 		}
+		
+		
 		System.out.println("");
 		System.out.println("");
+		
+		
 		
 		int i1 = 1 ;
 		int j1 = 10 ;
